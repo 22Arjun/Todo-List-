@@ -1,0 +1,90 @@
+
+*{
+    box-sizing: border-box;
+    font-family: Inter;
+}
+
+
+
+.add-todo {
+    background-color: rgb(9, 118, 214);
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    width: 140px;
+    height: 45px;
+    font-size: 1.2rem;
+    margin-left: 12px;
+
+
+}
+.add-todo:hover {
+    background-color: rgb(2, 79, 100);
+
+}
+
+.add-todo:active {
+    background-color: #010a3f;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.flex>button {
+    background-color: rgb(203, 9, 9);
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    width: 80px;
+    height: 25px;
+    font-size: 1.2rem;
+    margin-left: 15px;
+}
+
+.flex>button:hover {
+    background-color: rgb(143, 53, 53);
+}
+
+.flex>button:active {
+    background-color: #010a3f;
+}
+
+h3 {
+    font-weight: 400;
+}
+
+
+input {
+    width: 230px;
+    height: 45px;
+    border: 1px solid;
+    border-radius: 6px;
+    font-size: 1.19rem;
+}
+
+.clear-btn {
+    background-color: rgb(193, 32, 32);
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    width: 92px;
+    height: 45px;
+    font-size: 1.2rem;
+    margin: 0px 12px;
+}
+.clear-btn:hover {
+    background-color: #771818;
+}
+.clear-btn:active {
+    background-color: #430404;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
