@@ -19,9 +19,6 @@ function addTodo() {
         vare.setAttribute("class", "clear");
         let parentDelete = document.querySelector(".wrapper").appendChild(vare);
     }
-    
-
-
     let addElement = document.querySelector(".input");
     let value = addElement.value;
     
