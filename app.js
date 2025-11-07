@@ -3,8 +3,16 @@ function deleteTodo(index) {
   let delElement = document.querySelector(".todo-" + index);
   delElement.parentNode.removeChild(delElement);
 
+  let clearDiv = document.querySelector(".clear");
 
+if(clearDiv.innerHTML === "") {
+    ctr = 0;
+    clearDiv.parentNode.removeChild(clearDiv);
+}
+
+if(ctr === index){
   ctr = ctr - 1;  
+}
 
 
 
